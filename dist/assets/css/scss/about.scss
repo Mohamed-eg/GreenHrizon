@@ -7,3 +7,12 @@
 body #costemNav{
     box-shadow: 0px 1px 2px rgb(24, 24, 24), inset 0px -1px 2px rgb(24, 24, 24) !important;
 }
+.tel{
+    color: rgb(3, 255, 74);
+    text-decoration: none;
+}
+.tel:hover{
+    text-shadow: 0 0 5px #4cff52;
+    color: #7eff83;
+    stroke: #18ff1f;
+}

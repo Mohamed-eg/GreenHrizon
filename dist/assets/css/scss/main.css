@@ -64,6 +64,37 @@ body #costemNav .logoSVG:hover {
           backdrop-filter: blur(5px);
 }
 
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  background-color: #e9e9e9;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.footer .footdiv {
+  width: 100%;
+  height: 250px;
+  padding: 0;
+}
+
+.aboutfooter {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
 .img-svg {
   margin: 0 20px !important;
 }

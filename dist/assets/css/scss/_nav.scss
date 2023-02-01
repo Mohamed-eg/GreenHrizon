@@ -53,3 +53,23 @@ body #costemNav {
     background: rgba(255, 255, 255, 0.2) !important;
     backdrop-filter: blur(5px);
 }
+.footer{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #e9e9e9;
+    width: 100%;
+    margin: 10px 0;
+    .footdiv{
+        width: 100%;
+        height: 250px;
+        padding: 0;
+    }
+}
+.aboutfooter{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
