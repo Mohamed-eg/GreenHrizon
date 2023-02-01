@@ -1,0 +1,143 @@
+@import "./form";
+
+.img-svg {
+    margin: 0 20px !important;
+}
+
+body #costemNav {
+    background: #ffffff;
+    z-index: 30;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgb(133, 133, 133), inset 0px -3px 5px rgb(133, 133, 133);
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    ul {
+        z-index: 30;
+
+        li {
+            padding: 0;
+            margin: 0;
+            border-radius: 10px;
+            transition: all .5s;
+            span.nav-link {
+                padding: 0.6rem 1rem;
+            }
+
+            .dropdown-menu {
+                border-radius: 5px;
+                box-shadow: 0px 3px 5px rgb(133, 133, 133), inset 0px -3px 5px rgb(133, 133, 133);
+
+            }
+
+            a {
+                padding: 5px;
+            }
+        }
+
+        li:hover {
+            box-shadow: 0px 3px 5px rgb(133, 133, 133), inset 0px -3px 5px rgb(133, 133, 133);
+            ;
+        }
+    }
+}
+
+.four-photo {
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgb(133, 133, 133), inset -1px -1px 4px rgb(133, 133, 133);
+    margin: 5px;
+    width: 300px;
+
+    img {
+        background-color: #e7aa00;
+        height: 380px !important;
+    }
+
+    // backdrop-filter: ;
+}
+
+.four-photo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+}
+
+.castumePar {
+    text-align: right;
+    font-weight: 800 !important;
+    color: #00ff22;
+}
+
+.logoSVG {
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    border-radius: 25%;
+}
+
+.logoSVG:hover {
+    box-shadow: 0px 3px 5px rgb(133, 133, 133), inset 0px -3px 5px rgb(133, 133, 133);
+}
+
+.OverSec {
+    margin-top: 80px !important;
+}
+
+.sliderDiv {
+
+    p,
+    a,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-shadow: 0 0 5px #fff;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+    }
+}
+
+.Text-enfo {
+    h2 {
+        color: #005f0d;
+
+        span {
+            color: rgb(5, 5, 5);
+            fill: none;
+        }
+    }
+}
+
+.HomeContaner {
+    display: none;
+}
+.lodingpag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000a01;
+}
+body{
+    height: 100vh;
+    overflow-y:hidden ;
+    .scrooll{
+       height: 0 !important;
+    }
+}
+
+body.page-loaded {
+    height: fit-content;
+    overflow-y:scroll ;
+    scroll-behavior: smooth;
+    .scrooll{
+        height: 100% !important;
+        .swiper-slide{
+            box-shadow: 5px 5px 10px #040404c5;
+        }
+    }
+}

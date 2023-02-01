@@ -1,0 +1,308 @@
+.valed {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.valed h1 {
+  color: #18cb00;
+}
+
+.valed img {
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 15px #33ff41;
+          box-shadow: 0 0 15px #33ff41;
+  margin: 20px;
+}
+
+.container {
+  padding-top: 100px !important;
+}
+
+label {
+  width: 100% !important;
+  margin-top: 20px;
+}
+
+label i {
+  color: #00c30d;
+}
+
+.form-btn:hover {
+  -webkit-box-shadow: 0 0 10px #338fff;
+          box-shadow: 0 0 10px #338fff;
+  border-radius: 10px;
+}
+
+body #costemNav {
+  background: #ffffff;
+  z-index: 30;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+          box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+  position: fixed;
+  width: 100%;
+}
+
+body #costemNav ul {
+  z-index: 30;
+}
+
+body #costemNav ul li {
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+body #costemNav ul li span.nav-link {
+  padding: 0.6rem 1rem;
+}
+
+body #costemNav ul li .dropdown-menu {
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+          box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+}
+
+body #costemNav ul li a {
+  padding: 5px;
+}
+
+body #costemNav ul li:hover {
+  -webkit-box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+          box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+}
+
+.four-photo {
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 1px 10px #858585, inset -1px -1px 4px #858585;
+          box-shadow: 1px 1px 10px #858585, inset -1px -1px 4px #858585;
+  margin: 5px;
+  width: 300px;
+}
+
+.four-photo img {
+  background-color: #e7aa00;
+  height: 380px !important;
+}
+
+.four-photo-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.castumePar {
+  text-align: right;
+  font-weight: 800 !important;
+  color: #00ff22;
+}
+
+.logoSVG {
+  width: 50px;
+  margin: 0;
+  padding: 0;
+  border-radius: 25%;
+}
+
+.logoSVG:hover {
+  -webkit-box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+          box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+}
+
+.OverSec {
+  margin-top: 80px !important;
+}
+
+.sliderDiv p,
+.sliderDiv a,
+.sliderDiv h1,
+.sliderDiv h2,
+.sliderDiv h3,
+.sliderDiv h4,
+.sliderDiv h5,
+.sliderDiv h6 {
+  text-shadow: 0 0 5px #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+
+.img-svg {
+  margin: 0 20px !important;
+}
+
+body #costemNav {
+  background: #ffffff;
+  z-index: 30;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+          box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+  position: fixed;
+  width: 100%;
+  padding: 0;
+}
+
+body #costemNav ul {
+  z-index: 30;
+}
+
+body #costemNav ul li {
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+body #costemNav ul li span.nav-link {
+  padding: 0.6rem 1rem;
+}
+
+body #costemNav ul li .dropdown-menu {
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+          box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+}
+
+body #costemNav ul li a {
+  padding: 5px;
+}
+
+body #costemNav ul li:hover {
+  -webkit-box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+          box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+}
+
+.four-photo {
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 1px 10px #858585, inset -1px -1px 4px #858585;
+          box-shadow: 1px 1px 10px #858585, inset -1px -1px 4px #858585;
+  margin: 5px;
+  width: 300px;
+}
+
+.four-photo img {
+  background-color: #e7aa00;
+  height: 380px !important;
+}
+
+.four-photo-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.castumePar {
+  text-align: right;
+  font-weight: 800 !important;
+  color: #00ff22;
+}
+
+.logoSVG {
+  width: 50px;
+  margin: 0;
+  padding: 0;
+  border-radius: 25%;
+}
+
+.logoSVG:hover {
+  -webkit-box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+          box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+}
+
+.OverSec {
+  margin-top: 80px !important;
+}
+
+.sliderDiv p,
+.sliderDiv a,
+.sliderDiv h1,
+.sliderDiv h2,
+.sliderDiv h3,
+.sliderDiv h4,
+.sliderDiv h5,
+.sliderDiv h6 {
+  text-shadow: 0 0 5px #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+
+.Text-enfo h2 {
+  color: #005f0d;
+}
+
+.Text-enfo h2 span {
+  color: #050505;
+  fill: none;
+}
+
+.HomeContaner {
+  display: none;
+}
+
+.lodingpag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: #000a01;
+}
+
+body {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+body .scrooll {
+  height: 0 !important;
+}
+
+body.page-loaded {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+body.page-loaded .scrooll {
+  height: 100% !important;
+}
+
+body.page-loaded .scrooll .swiper-slide {
+  -webkit-box-shadow: 5px 5px 10px #040404c5;
+          box-shadow: 5px 5px 10px #040404c5;
+}
+/*# sourceMappingURL=main.css.map */
