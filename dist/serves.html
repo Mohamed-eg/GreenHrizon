@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+    <!-- Page Meta Tags-->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Custom Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- Favicon -->
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/checkout/" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/favicon/favicon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon/favicon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon/favicon.png" />
+    <link
+      rel="mask-icon"
+      href="./assets/images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.bundle.css" />
+    <link rel="stylesheet" href="./assets/css/scss/serves.css" />
+    <!-- -----fontAsome---- -->
+
+    <noscript>
+      <style>
+        .simplebar-content-wrapper {
+          overflow: auto;
+        }
+      </style>
+    </noscript>
+
+    <!-- Page Title -->
+    <title>أفق اخضر</title>
+  </head>
+  <body>
+    <!-- ------------fixed nav----------- -->
+    <nav
+      class="navbar navbar-expand-lg HomeContaner flex-column border-0"
+      id="costemNav">
+      <div class="container-fluid">
+        <div class="w-100">
+          <div
+            class="d-flex justify-content-between align-items-center flex-wrap">
+            <!-- Logo-->
+            <a
+              class="navbar-brand fw-bold fs-3 m-0 p-0 flex-shrink-0 order-0"
+              href="./index.html">
+              <div class="d-flex align-items-center">
+                <img class="logoSVG" src="./assets/svgs/logo.svg" />
+              </div>
+            </a>
+            <!-- / Logo-->
+
+            <!-- Navbar Icons-->
+            <ul
+              class="list-unstyled mb-0 d-flex align-items-center order-1 order-lg-2 nav-sidelinks">
+              <!-- Mobile Nav Toggler-->
+              <li class="d-lg-none">
+                <span
+                  class="nav-link text-body d-flex align-items-center cursor-pointer"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                  ><i class="ri-menu-line me-1"></i> Menu</span
+                >
+              </li>
+              <li class="ms-1 d-none d-lg-inline-block">
+                <a class="nav-link text-body" href="./login.html"> Account </a>
+              </li>
+            </ul>
+            <div
+              class="flex-shrink-0 collapse navbar-collapse navbar-collapse-light w-auto flex-grow-1 order-2 order-lg-1"
+              id="navbarNavDropdown">
+              <!-- Menu-->
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="../index.html"
+                    role="button">
+                    <i class="fa-solid fa-house"></i> الصفحه الراسيه
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#home">الصفحه الراسيه</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#universty">الجامعات</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#graduated"
+                        >معك حتي التخرج</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#coustumers"
+                        >عملاء نفخر بهم</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-item"
+                    href="./about.html"
+                    role="button">
+                    <i class="fa-solid fa-user"></i> من نحن
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="./about.html"
+                        >فريق العمل</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./about.html">العملاء</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./about.html"
+                        >فروع المكتب</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./about.html"
+                        >تاريخ المكتب</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-item" href="./category.html">
+                    <i class="fa-solid fa-phone"></i> اتصل بنا
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="./serves.html"
+                    role="button">
+                    <i class="fa-solid fa-pen-to-square"></i> خدماتنا
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="./serves.html"
+                        >مرحله البكلريوس</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./serves.html"
+                        >الدراسات العليا</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./serves.html"
+                        >الزماله المصريه و الامتياز</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1 class="mb-3 mb-sm-5 text-center">خدماتنا</h1>
+      <div class="row">
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card card-outline-success text-center">
+            <div class="card-header bg-success text-white">
+              <h2>مرحله البكلريوس</h2>
+              <h4></h4>
+            </div>
+            <div class="card-block">
+              <p class="card-text text-left text-center listParag">
+                متطلبات التقديم
+              </p>
+            </div>
+            <ul class="list-group small">
+              <li class="list-group-item">
+                <span>1- </span> صورة الشهادة الدراسية اسكنر Pdf.
+              </li>
+              <li class="list-group-item">
+                <span>2- </span>صورة جواز السفر ساري اسكنر pdf.
+              </li>
+              <li class="list-group-item"><span>3- </span>صورة شخصية.</li>
+              <li class="list-group-item">
+                <span>4- </span>جواز الأب أو أحد. الأقارب من الدرجة الأولى
+                بيانات الأم.
+              </li>
+              <li class="list-group-item">
+                <span>5- </span>رسوم التقديم على الموقع 2000ج.
+              </li>
+            </ul>
+            <div class="card-block">
+              <p class="card-text text-left text-center listParag">
+                متطلبات ما بعد القبول
+              </p>
+            </div>
+            <ul class="list-group small">
+              <li class="list-group-item">
+                <span>1- </span> دفع خدمات الوافدين 2000 جنيه مصري
+              </li>
+              <li class="list-group-item">
+                <span>2- </span>قدم مؤهل 1500 جنيه مصري للسنة (في حالة كانت
+                الشهادة قديم)
+              </li>
+              <li class="list-group-item">
+                <span>3- </span> اشتراك نادي الوافدين 305 ج.م (إجباري).
+              </li>
+            </ul>
+            <div class="card-footer">
+              <button type="button" class="btn btn-success btn-lg">
+                <a href="./category.html"> Select</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card card-outline-warning text-center">
+            <div class="card-header bg-warning text-white">
+              <h2>مرحله الدراسات العليا</h2>
+              <h4></h4>
+            </div>
+            <div class="card-block">
+              <p class="card-text text-left text-center listParag">
+                الدراسة العليا في مصر
+              </p>
+            </div>
+            <ul class="list-group small">
+              <li class="list-group-item">
+                متاح التقديم للدراسات العليا الماجستير و الدكتوره في جميع
+                التخصصات النظرية والتطبيقية وفي أي جامعة مصرية يتوفر فيها المساق
+              </li>
+              <li class="list-group-item">
+                ويكون ذلك بعد معادلة الشهادة المتقدم بها، عبر المجلس الاعلى
+                للجامعات
+              </li>
+              <li class="list-group-item">
+                ويكون بعدها الطلب موأهل للدراسات العليا والتقديم من خلال الادارة
+                العامة للوافدين مدينة النصر،
+              </li>
+              <li class="list-group-item">التقديم متاح طول العام.</li>
+            </ul>
+            <div class="card-footer">
+              <button type="button" class="btn btn-warning btn-lg">
+                <a href="./category.html"> Select</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card card-outline-danger text-center">
+            <div class="card-header bg-danger text-white">
+              <h2>الزماله المصريه و الامتياز</h2>
+              <h4></h4>
+            </div>
+            <div class="card-block">
+              <p class="card-text text-left text-center listParag">
+                التقديم للامتياز
+              </p>
+            </div>
+            <ul class="list-group small">
+              <li class="list-group-item">
+                يكون بعد الحصول على درجة البكراريوس في التخصصات الطبية سوى أن
+                كأنت من دأخل الجمهورية أو خارجها
+              </li>
+              <li class="list-group-item">
+                (أذا كانت الشهادة من خارج مصر يجب أن يتم معادلتها عبر المجلس
+                الاعلى للجامعات )
+              </li>
+              <li class="list-group-item">
+                وتكون مدة الامتياز سنتين في كل المحافظات المصرية،
+              </li>
+              <li class="list-group-item">
+                يتم التقديم عبر وزارة الصحة والاسكان،
+              </li>
+              <li class="list-group-item">
+                الرسوم 1200 أستريني لجميع الطلاب العرب
+              </li>
+              <li class="list-group-item">التقديم متاح خلال طوال العام.</li>
+            </ul>
+            <div class="card-block">
+              <p class="card-text text-left text-center listParag">
+                الزمالة المصرية
+              </p>
+            </div>
+            <ul class="list-group small">
+              <li class="list-group-item">
+                التقديم للزمالة المصرية يعتبر من افضل البرأمج التي تقدمها مصر
+                للطلاب العرب
+              </li>
+              <li class="list-group-item">
+                وتختلف سنيين الدراسة حسب التخصص المتقدم له والشهادة الحاصل عليها
+                المتقدم،
+              </li>
+              <li class="list-group-item">
+                يفتح التقديم أبوابه خلال شهر مارس من كل عام ويغلق بعده بأيام
+              </li>
+              <li class="list-group-item">
+                الرسوم الدراسية 1200 أستريني لجميع الطلاب العرب.
+              </li>
+            </ul>
+            <div class="card-footer">
+              <button type="button" class="btn btn-danger btn-lg">
+                <a href="./category.html"> Select</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bigReson">
+        <h1>أسباب تجعل من مصر قبلة دراسية</h1>
+        <div>
+          <div class="reson">
+            <p>
+              <span>1- </span>
+              للدراسة في مصر سمات كثير جدا حيث تحتوى أعرق وأرقى الجامعات في
+              الشرق الاوسط وتنافس في الترتيبات العالمية بقفزات متقدمة وكلها
+              معترف بها دوليا خاص في المجالات الطبية والهندسية وطاقم من الكوادر
+              المؤهلة التي اكتسبت الخبرة وورثة العلم والادارة هذه وأكثر تصب في
+              مصلحة الطالب الوافد حيث توفر له البيئة والتوقيت المناسبين، واتساع
+              الأكاديمي التي تؤهله بمهارات سوق العمل. دائرة الحريات الاكاديمية،
+              لكي يصقل موهبة الطالب ويحقق طموحه
+            </p>
+          </div>
+          <div class="reson">
+            <p>
+              <span>2- </span>
+              التقدم التكنولوجي والعلمي (التعليم عن بعد) والبرامج الدراسية
+              الجاذبة التي تواكب التغيرات العالمية وأحدث الوسائل وأجمل الطرق بعض
+              البرامج على بعض وبعض المحافظات (نظام الساعات المعتمدة) وغيرها التي
+              تناسب الجميع . يفضل بعض الطلاب
+            </p>
+          </div>
+          <div class="reson">
+            <p>
+              <span>3- </span>
+              وهندسة السفن والمحيطات وغيرها). إتاحة الفرصة لي تخصصات دقيقة
+              ونادرة (مثل هندسة الطاقة البديلة
+            </p>
+          </div>
+          <div class="reson">
+            <p>
+              <span>4- </span>
+              موقع مصر الجغرافي الفريد الذي بوابة الشرق والغرب وتتيح فرص التعرف
+              على الثقافات المتعدد وحضور المناشط الكبيرة مثل معرض الكتاب الدولي
+              والزيادة أضخم المكاتب و مخالطة المبدعين. ، المؤتمرات العلمية
+              والمنتديات التعليمية والملتقيات الاكاديمية
+            </p>
+          </div>
+          <div class="reson">
+            <p>
+              <span>5- </span>
+              الرسوم الدراسية المناسبة والتخفيض حسب اتفاقات دولية، أتفاقيات دول
+              حوض النيل (السودان وجنوب السودان تخفيض 90% ) و تخفيض 50% عليها
+              دوليا والتخصصات وسوف نفرد منشور بسعر كل كلية. للفلسطينيين
+              والعراقيين لكافة الجامعات وهذا من أهم أسباب الإقبال
+            </p>
+          </div>
+          <div class="reson">
+            <p>
+              <span>6- </span>
+              يكفي يحوله على الحد الادنى. لا يشترط حصول الطالب على درجات عالية
+              للقبول في التخصصات التطبيقية
+            </p>
+          </div>
+          <div class="reson">
+            <p>
+              <span>7- </span>
+              المؤهل المطلوب شهادة الثانوية العامة (شهادة القدرات للقادمين من
+              السعودية) والشهادة البريطانية والإنجليزية والمعاهد الفنية .
+            </p>
+          </div>
+          <div class="reson">
+            <p>
+              <span>8- </span>
+              الاستقرار الأمني والمعيشة السهلة وتوفير سبل الراحلة للطلاب و
+              الطالبات والحياة الكريمة والتسهيلات المقدمة للطالب حيث توفره تأشير
+              خاصة للطالب لمدة سنة و تخفيض في تذاكر المترو .علاوة على ذلك
+              الدراسة المستمرة رغم الأوبئة المنتشرة والمتحورات المختلفة والأمراض
+              ومواكبة المستقبل. العالمية والظروف الاقتصادية حيث قدمت مصر نموذجا
+              ناجحا في الادارة
+            </p>
+          </div>
+          <div class="reson">
+            <p>
+              <span>9- </span>
+              التعددية الثقافية بحيث لا تخلو جامعة من جالية وافدين بل هنالك
+              أنشطة إجتماعية وثقافية ورياضية متنوعة والصبغة الإسلامية.
+            </p>
+          </div>
+          <div class="reson">
+            <p>
+              <span>10- </span>فرص القبول المضمون لكل متقدم بسبب كثرة الجامعات.
+            </p>
+          </div>
+          <div class="reson">
+            <p>
+              <span>11- </span>
+              للآخرين. الاندماج الاجتماعي وتكوين صدقات والاحترام المتبادل
+              والتقدير
+            </p>
+          </div>
+          <div class="reson">
+            <p>
+              <span>12- </span>
+              الدكاتره. تعامل الراقي من هيئة التدريس للطالب الوافد وتكوين علاقات
+              طيبة مع
+            </p>
+          </div>
+          <div class="reson">
+            <p>
+              <span>13- </span> المدن والمحافظات السياحية والبنية المعمارية و
+              سهولة الانترنت.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/theme.bundle.js"></script>
+    <!-- Vendor JS -->
+    <script src="./assets/js/vendor.bundle.js"></script>
+    <!-- cdn -->
+    <script
+      src="https://kit.fontawesome.com/fdab938951.js"
+      crossorigin="anonymous"></script>
+    <!-- castum screbt -->
+    <script src="./assets/js/nav.js"></script>
+    <!-- <script src="./assets/js/form.js"></script> -->
+  </body>
+</html>

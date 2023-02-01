@@ -1,0 +1,111 @@
+body #costemNav {
+  background: #ffffff;
+  z-index: 30;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+          box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+  position: fixed;
+  width: 100%;
+  padding: 0;
+}
+
+body #costemNav ul {
+  z-index: 30;
+}
+
+body #costemNav ul li {
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+body #costemNav ul li span.nav-link {
+  padding: 0.6rem 1rem;
+}
+
+body #costemNav ul li a.nav-link {
+  font-weight: 800;
+  padding: 5px;
+}
+
+body #costemNav ul li a.nav-link i {
+  margin: 5px !important;
+}
+
+body #costemNav ul li .dropdown-menu {
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+          box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+}
+
+body #costemNav ul li:hover {
+  color: black;
+  -webkit-box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+          box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+}
+
+body #costemNav .logoSVG {
+  width: 50px;
+  margin: 0;
+  padding: 0;
+  border-radius: 25%;
+}
+
+body #costemNav .logoSVG:hover {
+  -webkit-box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+          box-shadow: 0px 3px 5px #858585, inset 0px -3px 5px #858585;
+}
+
+.hidenav {
+  background: rgba(255, 255, 255, 0.2) !important;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+.list-group-item span {
+  color: red;
+}
+
+.container {
+  padding-top: 80px;
+}
+
+span {
+  color: red;
+}
+
+.list-group-item {
+  text-align: right;
+}
+
+.listParag {
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.btn {
+  border-radius: 10px;
+  padding: 0;
+  height: 1.75em;
+}
+
+.btn a {
+  text-decoration: none;
+  padding: .5em 1em;
+}
+
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bigReson {
+  text-align: right;
+}
+
+.bigReson span {
+  text-align: left;
+}
+/*# sourceMappingURL=serves.css.map */
