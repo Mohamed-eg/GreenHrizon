@@ -1,45 +1,7 @@
-@import "./form";
+@import "./nav";
 
 .img-svg {
     margin: 0 20px !important;
-}
-
-body #costemNav {
-    background: #ffffff;
-    z-index: 30;
-    border-radius: 5px;
-    box-shadow: 0px 3px 5px rgb(133, 133, 133), inset 0px -3px 5px rgb(133, 133, 133);
-    position: fixed;
-    width: 100%;
-    padding: 0;
-    ul {
-        z-index: 30;
-
-        li {
-            padding: 0;
-            margin: 0;
-            border-radius: 10px;
-            transition: all .5s;
-            span.nav-link {
-                padding: 0.6rem 1rem;
-            }
-
-            .dropdown-menu {
-                border-radius: 5px;
-                box-shadow: 0px 3px 5px rgb(133, 133, 133), inset 0px -3px 5px rgb(133, 133, 133);
-
-            }
-
-            a {
-                padding: 5px;
-            }
-        }
-
-        li:hover {
-            box-shadow: 0px 3px 5px rgb(133, 133, 133), inset 0px -3px 5px rgb(133, 133, 133);
-            ;
-        }
-    }
 }
 
 .four-photo {
@@ -70,17 +32,6 @@ body #costemNav {
     color: #00ff22;
 }
 
-.logoSVG {
-    width: 50px;
-    margin: 0;
-    padding: 0;
-    border-radius: 25%;
-}
-
-.logoSVG:hover {
-    box-shadow: 0px 3px 5px rgb(133, 133, 133), inset 0px -3px 5px rgb(133, 133, 133);
-}
-
 .OverSec {
     margin-top: 80px !important;
 }
@@ -95,7 +46,7 @@ body #costemNav {
     h4,
     h5,
     h6 {
-        text-shadow: 0 0 5px #fff;
+        text-shadow: 0 0 10px #fff;
         background-color: rgba(255, 255, 255, 0.3);
         border-radius: 5px;
     }
