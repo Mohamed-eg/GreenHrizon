@@ -9,9 +9,23 @@
     <meta name="author" content="" />
     <title>افق اخضر</title>
     <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/favicon/favicon.png" />
+    <link
       rel="icon"
-      type="image/x-icon"
-      href="./assets/images/img/favicon.ico" />
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon/favicon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon/favicon.png" />
+    <link
+      rel="mask-icon"
+      href="./assets/images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5" />
     <!-- Font Awesome icons (free version)-->
     <script
       src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
@@ -29,6 +43,141 @@
     <link rel="stylesheet" href=".//assets/css/scss/about.css" />
   </head>
   <body>
+    <!-- ------------fixed nav----------- -->
+    <nav
+      class="navbar navbar-expand-lg HomeContaner flex-column border-0"
+      id="costemNav">
+      <div class="container-fluid">
+        <div class="w-100">
+          <div
+            class="d-flex justify-content-between align-items-center flex-wrap">
+            <!-- Logo-->
+            <a
+              class="navbar-brand fw-bold fs-3 m-0 p-0 flex-shrink-0 order-0"
+              href="./index.html">
+              <div class="d-flex align-items-center">
+                <img class="logoSVG" src="./assets/svgs/logo.svg" />
+              </div>
+            </a>
+            <!-- / Logo-->
+
+            <!-- Navbar Icons-->
+            <ul
+              class="list-unstyled mb-0 d-flex align-items-center order-1 order-lg-2 nav-sidelinks">
+              <!-- Mobile Nav Toggler-->
+              <li class="d-lg-none">
+                <span
+                  class="nav-link text-body d-flex align-items-center cursor-pointer"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                  ><i class="ri-menu-line me-1"></i> Menu</span
+                >
+              </li>
+              <li class="ms-1 d-none d-lg-inline-block">
+                <a class="nav-link text-body" href="./login.html"> Account </a>
+              </li>
+            </ul>
+            <div
+              class="flex-shrink-0 collapse navbar-collapse navbar-collapse-light w-auto flex-grow-1 order-2 order-lg-1"
+              id="navbarNavDropdown">
+              <!-- Menu-->
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="../index.html"
+                    role="button">
+                    <i class="fa-solid fa-house"></i> الصفحه الراسيه
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#home">الصفحه الراسيه</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#universty">الجامعات</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#graduated"
+                        >معك حتي التخرج</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#coustumers"
+                        >عملاء نفخر بهم</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-item"
+                    href="./about.html"
+                    role="button">
+                    <i class="fa-solid fa-user"></i> من نحن
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="./about.html"
+                        >فريق العمل</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./about.html">العملاء</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./about.html"
+                        >فروع المكتب</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./about.html"
+                        >تاريخ المكتب</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-item" href="./category.html">
+                    <i class="fa-solid fa-phone"></i> اتصل بنا
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="."
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="fa-solid fa-pen-to-square"></i> خدماتنا
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="./index.html"
+                        >مرحله البكلريوس</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./category.html"
+                        >الدراسات العليا</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./product.html"
+                        >الزماله المصريه و الامتياز</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
     <!-- Background Video-->
     <video
       class="bg-video"
